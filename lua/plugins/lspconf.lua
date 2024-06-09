@@ -19,7 +19,23 @@ return {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
+        -- basic
         "lua-language-server",
+        "clangd",
+
+        -- json, js
+        "json-lsp",
+        "prettier",
+        "prettierd",
+
+        -- bash
+        "shfmt",
+        "bash-language-server",
+        "shellcheck",
+
+        -- markdown
+        "glow",
+        "marksman",
       },
     },
   },
